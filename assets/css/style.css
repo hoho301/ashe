@@ -471,11 +471,7 @@ Mainvisual
 #ac-menu .label:hover {
   background-color: #ffda5f;
 }
-/*
-ラベル右側のアイコン「＋」を設定
-beforeが横棒
-afterが縦棒
-*/
+
 #ac-menu .label::before,
 #ac-menu .label::after {
   content: '';
@@ -491,9 +487,7 @@ afterが縦棒
   transform: translateY(-50%) rotate(90deg);
   transition: .5s;
 }
-/*
-アコーディオンメニューが開いている場合
-*/
+
 #ac-menu .label.open {
   /* ラベルの背景色を変更 */
   background-color: #ffda5f;
@@ -616,11 +610,11 @@ intern
   margin-top: 20px;
 }
 #intern .intern-img1 {
-  background-image: url(../img/グループ\ 2832.png);
+  background-image: url(../img/intern.png);
   position: relative;
 }
 #intern .intern-img2 {
-  background-image: url(../img/グループ\ 2831.png);
+  background-image: url(../img/company_information_session.png);
   position: relative;
 }
 .intern__bg {
